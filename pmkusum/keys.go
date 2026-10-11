@@ -6,7 +6,7 @@ import (
 
 // Keyword tables of the RMS message profile of "RMS Communication and
 // Security Architecture" (the PM KUSUM SEDM Platform version of 14/07/2020,
-// published by MAHADISCOM as Annexure-I, and the PM KUSUM National Portal
+// published by MAHADISCOM as Annexure-H (2021) and Annexure-I (2022), and the PM KUSUM National Portal
 // version of 26/09/2022, published by OREDA as Annexure-E; both cite the
 // EESL tender's Annexure 8, clause 4): the message structure's header
 // keywords and annexures 1 to 7 (annexure 8, the USPC, is uspcTable below).

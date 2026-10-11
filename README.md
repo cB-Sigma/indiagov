@@ -22,8 +22,8 @@ oneM2M platform, whose PM-KUSUM and JJM adapters are built on it.
 
 | Short name here | Document | Date | Where it is published |
 |---|---|---|---|
+| RMS 2020 | "RMS Communication and Security Architecture - PM KUSUM SEDM Platform" (annexures 1 to 7) | 14 July 2020 | MAHADISCOM, as Annexure-H of a tender (2021 upload; the copy we hashed) and as Annexure-I (2022 upload) |
 | RMS 2022 | "RMS Communication and Security Architecture - PM KUSUM National Portal" (prepared by KPMG; annexures 1 to 8) | 26 September 2022 | OREDA, as Annexure-E of a tender |
-| RMS 2020 | "RMS Communication and Security Architecture - PM KUSUM SEDM Platform" (annexures 1 to 7) | 14 July 2020 | MAHADISCOM, as Annexure-I of a tender |
 | | both cite the EESL tender's Annexure 8, clauses 4.b to 4.f | | |
 | JJM report | NJJM, DDWS, Technical/Expert Committee report on measuring and monitoring water service delivery in rural areas | March 2021 | jaljeevanmission.gov.in |
 | eJalShakti 2026 | NIC/DDWS "Operational Manual - IoT data integration" and the live help pages at ejalshakti.gov.in/IoT_API/Help | 18 February 2026; pages read 11 October 2026 | ejalshakti.gov.in |
@@ -32,8 +32,8 @@ oneM2M platform, whose PM-KUSUM and JJM adapters are built on it.
 None of these is an MNRE specification of the message format: MNRE's
 RMS specification leaves the format to the implementing agency.
 PROVENANCE.md has the details. SigmaM2M calls the RMS profile
-"annexure-h", a name kept there for compatibility; it is not the name
-of a document.
+"annexure-h": an identifier there, taken from the label of the 2021
+MAHADISCOM copy of the 2020 document.
 
 ## Support matrix
 

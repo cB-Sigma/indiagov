@@ -27,7 +27,7 @@ ones SigmaM2M's adapter used, by the same author.
 | Document | Date | Used for (files) |
 |---|---|---|
 | "RMS Communication and Security Architecture - PM KUSUM National Portal" (prepared by KPMG; sections 1 to 6 and annexures 1 to 8), published by OREDA as Annexure-E of a tender (also printed as Annexure-F of a SECI RfS); cites the EESL tender's Annexure 8, clauses 4.b to 4.f | 26 September 2022 | topics, header, keyword tables, communication modes and intervals, registration, annexures 1 to 8 including the USPC (pmkusum/keys.go, message.go, topic.go, command.go, encode.go, otp.go, registration.go) |
-| "RMS Communication and Security Architecture - PM KUSUM SEDM Platform" (sections 1 to 6 and annexures 1 to 7), published by MAHADISCOM as Annexure-I of a tender; cites the same EESL clauses | 14 July 2020 | the same, without annexure 8 |
+| "RMS Communication and Security Architecture - PM KUSUM SEDM Platform" (sections 1 to 6 and annexures 1 to 7), published by MAHADISCOM as a tender annexure in two public copies: Annexure-H (2021 upload, mahadiscom.in/supplier/wp-content/uploads/2021/12/Annexure-H.pdf, downloaded 2026-09-24; the copy whose SHA-256 we recorded) and Annexure-I (2022 upload); cites the same EESL clauses | 14 July 2020 | the same, without annexure 8 |
 | MNRE Office Memorandum F. No. 41/3/2018-SPV Division, updated specification of SPV water pumping systems and the USPC, with its RMS annexure, which leaves the message format to the implementing agency | 22 March 2023 | default 15-minute push and the 1 to 15 minute range (`Interval`); pvPower in `Message.Content` |
 | NJJM, DDWS, Ministry of Jal Shakti, Technical/Expert Committee report on measuring and monitoring water service delivery in rural areas (section 5(f), annexures 9(b) and 9(c)) | March 2021 | device types, parameters, units, error codes, ranges, intervals, metadata, the state-to-centre API (jjm/model.go, units.go, encode.go, central.go) |
 | NIC/DDWS "Operational Manual - IoT data integration" | 18 February 2026 | the five current eJalShakti APIs, keys, answers (jjm/ejalshakti.go, ejpush.go) |
@@ -36,9 +36,10 @@ ones SigmaM2M's adapter used, by the same author.
 | NIC "IoT Web API Description" (overview) | | the unlisted water quality APIs |
 | MQTT 5 (OASIS), through Eclipse Paho | | mqttconn |
 
-SigmaM2M's server names the RMS profile "annexure-h"; the name is kept
-there as an identifier for compatibility and does not name a document.
-Its findings register cites the 2020 document under that name.
+SigmaM2M's server names the RMS profile "annexure-h", an identifier
+taken from the label of the 2021 MAHADISCOM copy of the 2020 document;
+the 2022 MAHADISCOM copy of the same document is labelled Annexure-I.
+Its findings register cites the 2020 document by that copy.
 
 No text of these documents is reproduced.
 
